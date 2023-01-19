@@ -5,12 +5,12 @@
 }
 
 body{
-    font-family: 'Fredoka', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka', sans-serif;
 }
 
 header, main{
-    max-width: 800px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -21,10 +21,14 @@ h1{
 
     color: #b52c5c;
     padding: 30px 0px 60px;
-    font-size: 3em;
+    font-weight: 700;
+    font-size: 2.5em;
     text-align: center;
 }
 /* /title */
+
+
+
 
 /* paragraph */
 .paragraph{
@@ -33,8 +37,61 @@ h1{
 
 
 .paragraph p{
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
 }
 
 /* paragraph */
+
+
+
+/* card */
+.card{
+    height: 157px;
+    width: 30%;
+    background-color: #101a2a;
+    float: left;
+    margin: 1em;
+}
+
+
+
+ .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+    
+h2{
+    color: white;
+    text-align: center ;
+    padding: 12px 0px 12px 95px;
+}
+
+
+.job{
+    display: block;
+    padding-bottom: 30px;
+    color: white;
+    padding-left: 220px;
+}
+
+
+.mail{
+    color: white;
+    padding-left: 200px;
+    color: #0c74a3;
+}
+
+
+img {
+    width: 157px;
+    height: 50%;
+    float: left;
+}
+
+
 
