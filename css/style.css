@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* title */
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #b52c5c;
+    padding: 30px 0px 60px;
+    font-size: 3em;
+}
+/* /title */
+
