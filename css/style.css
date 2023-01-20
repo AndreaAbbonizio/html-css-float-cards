@@ -52,6 +52,7 @@ h1{
     background-color: #101a2a;
     float: left;
     margin: 1em;
+    min-width: 390px;
 }
 
 
@@ -89,7 +90,7 @@ h2{
 
 img {
     width: 157px;
-    height: 50%;
+    height: 100%;
     float: left;
 }
 
